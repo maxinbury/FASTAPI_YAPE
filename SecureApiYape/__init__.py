@@ -7,4 +7,4 @@ app = FastAPI()
 app.include_router(chatbot.router, prefix="/api")  
   
 def main(req: func.HttpRequest, context:func.Context) -> func.HttpResponse:  
-    return func.AsgiMiddleware(app).handle(req, context)  
+    return func.AsgiMiddleware(app).handle(req, context)

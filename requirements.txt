@@ -4,4 +4,6 @@
 
 azure-functions
 fastapi
-fastpi_microsoft_identity
+langchain
+pymongo
+openai
